@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/login">
+
+    <activity
+        android:id="@+id/login"
+        android:name="com.baron.pchat.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/register"
+        android:name="com.baron.pchat.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.baron.pchat.MenuActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.baron.pchat.fragments.FirstFragment"
+        android:label="FirstFragment" >
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.baron.pchat.fragments.SecondFragment"
+        android:label="SecondFragment" />
+    <activity
+        android:id="@+id/item"
+        android:name="com.baron.pchat.Item"
+        android:label="Item" />
+</navigation>

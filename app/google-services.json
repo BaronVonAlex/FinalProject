@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "649267248888",
+    "project_id": "pchat-967ed",
+    "storage_bucket": "pchat-967ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649267248888:android:2e5040463d58e03f5f050d",
+        "android_client_info": {
+          "package_name": "com.baron.pchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649267248888-q1vbrkm34986scg069u0t8r7jm91eq7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFGL8OfYNu73ZYjQ_68XOFzdEdJnMLtK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649267248888-q1vbrkm34986scg069u0t8r7jm91eq7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

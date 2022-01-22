@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CPUActivity"
+    android:background="@drawable/background2blur">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:background="@drawable/logo"/>
+
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/inteli3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:id="@+id/i3text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignStart="@id/i3"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Intel core i3 10th Gen."
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/i5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/i5"
+        android:layout_below="@+id/i3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/i5text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/i3text"
+        android:layout_alignStart="@id/i3"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Intel core i5 9th Gen."
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/i7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/i7"
+        android:layout_below="@id/i5"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/i7text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/i5text"
+        android:layout_alignStart="@id/i3"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Intel core i7 11th Gen."
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/amd1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/amdicon"
+        android:layout_below="@id/i7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/amd1text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/i7text"
+        android:layout_alignStart="@id/i3"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="AMD Ryzen 5 2600"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/amd2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/amdicon"
+        android:layout_below="@id/amd1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/amd2text"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignStart="@id/i3"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="20dp"
+        android:text="AMD Ryzen 7 Pro 2700X"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/amd1text"/>
+
+    <Button
+        android:id="@+id/returnMenuButton"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_below="@id/amd2text"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
